@@ -1,0 +1,16 @@
+# Ingress-ID, Egress-ID, Min-Bandwidth, Max-Delay, VNF, VNF, VNF, ...
+h1,h4,41154,500,Firewall
+h6,h5,30991,500,Firewall
+h8,h4,64205,500,Firewall
+h3,h1,57629,500,Firewall
+h4,h1,54519,500,Firewall
+h3,h5,50768,500,Firewall
+h1,h8,20333,500,Firewall
+h2,h7,31714,500,Firewall
+h5,h3,94142,500,Firewall
+h2,h4,84933,500,Firewall
+h4,h0,18372,500,Firewall
+h5,h4,33574,500,Firewall
+h0,h1,35851,500,Firewall
+h5,h8,51428,500,Firewall
+h0,h6,14224,500,Firewall

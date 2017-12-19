@@ -1,0 +1,105 @@
+graph networkGraphTest {
+  node [
+    shape = "circle",
+    style = "filled",
+    fontsize = 12,
+    fixedsize = true
+  ];
+
+  edge [
+    color = "#bbbbbb"
+  ];
+
+  // nodes with CPU
+  node [
+    color = "#007399",
+    fillcolor = "#007399",
+    fontcolor = white
+  ];
+  n0k0;
+  n0k3;
+  n1k2;
+  n2k1;
+  n1k3;
+  n2k2;
+  n0k1;
+  n1k0;
+  n0k2;
+  n1k1;
+  n2k0;
+  n2k3;
+
+  // nodes without CPU
+  node [
+    color = "#4dd2ff",
+    fillcolor = "#4dd2ff",
+    fontcolor = black
+  ];
+  dst4;
+  dst3;
+  src8;
+  dst2;
+  dst1;
+  dst0;
+  src5;
+  src4;
+  src7;
+  src6;
+  src1;
+  src0;
+  src3;
+  src2;
+  dst8;
+  dst7;
+  dst6;
+  dst5;
+
+  // edges
+  n0k2 -- n0k3 [ label = "1" ];
+  n2k3 -- dst8 [ label = "1" ];
+  n0k1 -- n1k1 [ label = "1" ];
+  n2k0 -- dst3 [ label = "1" ];
+  src3 -- n0k0 [ label = "1" ];
+  n2k3 -- dst7 [ label = "1" ];
+  n1k2 -- n2k2 [ label = "1" ];
+  n1k3 -- n2k3 [ label = "1" ];
+  n2k3 -- dst6 [ label = "1" ];
+  n1k1 -- n1k2 [ label = "1" ];
+  src6 -- n0k3 [ label = "1" ];
+  n2k2 -- dst4 [ label = "1" ];
+  n2k2 -- dst5 [ label = "1" ];
+  src4 -- n0k2 [ label = "1" ];
+  n1k2 -- n1k3 [ label = "1" ];
+  n2k0 -- dst2 [ label = "1" ];
+  n2k1 -- dst2 [ label = "1" ];
+  n0k0 -- n1k0 [ label = "1" ];
+  n1k0 -- n2k0 [ label = "1" ];
+  src1 -- n0k0 [ label = "1" ];
+  n2k0 -- dst0 [ label = "1" ];
+  n2k2 -- dst7 [ label = "1" ];
+  n2k1 -- dst3 [ label = "1" ];
+  src6 -- n0k2 [ label = "1" ];
+  n1k1 -- n2k1 [ label = "1" ];
+  src8 -- n0k3 [ label = "1" ];
+  src4 -- n0k1 [ label = "1" ];
+  n2k1 -- dst4 [ label = "1" ];
+  n2k2 -- dst6 [ label = "1" ];
+  n0k2 -- n1k2 [ label = "1" ];
+  n2k0 -- n2k1 [ label = "1" ];
+  src5 -- n0k2 [ label = "1" ];
+  src3 -- n0k1 [ label = "1" ];
+  src2 -- n0k0 [ label = "1" ];
+  n2k1 -- dst5 [ label = "1" ];
+  src7 -- n0k3 [ label = "1" ];
+  src2 -- n0k1 [ label = "1" ];
+  src5 -- n0k1 [ label = "1" ];
+  n0k0 -- n0k1 [ label = "1" ];
+  n0k3 -- n1k3 [ label = "1" ];
+  n2k2 -- n2k3 [ label = "1" ];
+  n2k1 -- n2k2 [ label = "1" ];
+  n1k0 -- n1k1 [ label = "1" ];
+  n2k0 -- dst1 [ label = "1" ];
+  n0k1 -- n0k2 [ label = "1" ];
+  src0 -- n0k0 [ label = "1" ];
+  src7 -- n0k2 [ label = "1" ];
+}

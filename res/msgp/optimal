@@ -1,0 +1,23 @@
+# 180 requests on 55 nodes. [seed=1232814197705932771, k=5, m=15, n=5, rho=0.80]
+cpu,hopcount
+25.0,1259.0
+20.0,1264.0
+15.0,1277.0
+10.0,1307.0
+5.0,1412.0
+
+#Optimal solution found (tolerance 1.00e-04)
+#Best objective 1.709000000000e+03, best bound 1.709000000000e+03, gap 0.0000%
+#
+#
+#Feasible solution found!
+#Instances:
+#  n0k3: [1x v0]
+#  n2k2: [1x v3]
+#  n4k0: [1x v4]
+#  n0k1: [1x v0]
+#  n0k2: [1x v1]
+#  n4k3: [1x v4]
+#  n1k2: [1x v2]
+#Used CPU cores: 7.0
+#Number of hops: 1009.0

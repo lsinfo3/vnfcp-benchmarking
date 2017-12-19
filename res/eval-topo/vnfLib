@@ -1,0 +1,13 @@
+[vnfs]
+# VNF Name, Cores, RAM,   HDD,   Delay, Capacity, Max Instances
+Firewall,   4,     4000,  4,     40,    900000,   -1
+IDS,        8,     8000,  8,     40,    600000,   -1
+
+[abbrev]
+# Define abbreviations: use predefined sub-chains in requests
+# VNF-Alias, VNF1, VNF2, VNF3, ...
+
+
+[pairs]
+# Define VNF pairs that should be closely connected:
+# VNF1, VNF2, Max Latency between them (μs)

@@ -1,0 +1,5 @@
+seed=-7767414194559902898
+possibleLocations=[6, 8]
+usedLocations=[3, 5]
+instances=[18, 26]
+requestedBandwidths=[100.0, 250.0]
